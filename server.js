@@ -8,8 +8,8 @@ const swaggerUi = require('swagger-ui-express');
 const connectDB = require('./Database');
 const swaggerSpec = require('./config/swagger');
 
-const authRoutes = require('./routes/authRoutes');
-const urlRoutes = require('./routes/urlRoutes');
+const authRoutes = require('./Routes/authRoutes');
+const urlRoutes = require('./Routes/urlRoutes');
 const { redirectToOriginal } = require('./controllers/urlController.js');
 const { notFound, errorHandler } = require('./middleware/errorHandler');
 
