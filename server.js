@@ -11,7 +11,7 @@ const swaggerSpec = require('./config/swagger');
 const authRoutes = require('./Routes/authRoutes');
 const urlRoutes = require('./Routes/urlRoutes');
 const { redirectToOriginal } = require('./controllers/urlController.js');
-const { notFound, errorHandler } = require('./middleware/errorHandler');
+const { notFound, errorHandler } = require('./middleware/errorhandler');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
