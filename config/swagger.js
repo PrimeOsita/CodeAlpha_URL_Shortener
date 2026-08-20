@@ -14,10 +14,10 @@ const options = {
         url: process.env.BASE_URL || 'http://localhost:5000',
         description: 'Current server'
       },
-    //    {
-    //   url: 'http://localhost:6677',
-    //   description: 'Development server',
-    // },
+       {
+      url: 'https://codealpha-url-shortener-nll1.onrender.com',
+      description: 'Development server',
+    },
     ],
      security: [
     {
